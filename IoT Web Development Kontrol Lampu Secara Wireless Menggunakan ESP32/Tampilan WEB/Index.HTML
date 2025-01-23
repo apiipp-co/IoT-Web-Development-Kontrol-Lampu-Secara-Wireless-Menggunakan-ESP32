@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> <!-- Added for better browser compatibility -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="layouts">
+        <!-- Navbar Section -->
+        <section class="navbar">
+            <h3>FvckingAwesome</h3>
+        </section>
+
+        <!-- Items Section -->
+        <section class="items">
+            <div class="item">
+                <img src="Komponen/led-on.png" class="item-image" />
+                <button class="item-submit" onclick="location.href='led.html'">LED CONTROL</button>
+            </div>
+            <div class="item">
+                <img src="Komponen/fan.png" class="item-image" />
+                <button class="item-submit" onclick="location.href='fan.html'">FAN CONTROL</button> <!-- Example Link -->
+            </div>
+            <div class="item">
+                <img src="Komponen/wip.png" class="item-image" />
+                <button class="item-submit">ONGOING</button>
+            </div>
+        </section>
+
+        <!-- Bottombar Section -->
+        <section class="bottombar">
+            <ul>
+                <li><a href="/" aria-label="Home"><i class="fa-solid fa-home"></i></a></li>
+                <li><a href="#" aria-label="Lightbulb"><i class="fa-solid fa-lightbulb"></i></a></li>
+                <li><a href="/" aria-label="Fan"><i class="fa-solid fa-fan"></i></a></li>
+                <li><a href="/" aria-label="User"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
